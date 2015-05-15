@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Beige"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:windowBackground="@color/Red"
+    tools:context="com.spp.ddoots.DisplayMessageActivity" >
+
+    <ImageView
+        android:id="@+id/cover_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baner" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dropImage"
+        android:layout_below="@+id/dropImage"
+        android:layout_marginTop="30dp"
+        android:text="@string/selectCusine"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Brown" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cover_image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="49dp"
+        android:text="@string/LocationSelection"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Brown" />
+
+    <ImageView
+        android:id="@+id/dropImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/buttonxx" />
+
+
+
+</RelativeLayout>
